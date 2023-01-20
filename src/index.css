@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a.active,
+footer a.active {
+	color: pink;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+}
