@@ -1,12 +1,18 @@
 /**
- * https://www.freecodecamp.org/news/how-to-import-svgs-in-react-and-vite/
+ * https://icon-sets.iconify.design/
+ * https://tailwindcss.com/docs/margin
  */
-import { ReactComponent as Logo } from '../assets/react.svg';
+import { Icon } from '@iconify/react';
 
 function Home() {
 	return (
-		<div>
-			Home <Logo />
+		<div className='text-orange-500'>
+			<Icon
+				icon='material-symbols:10k-rounded'
+				height={25}
+				className='inline-block float-left mr-1'
+			/>
+			Home
 		</div>
 	);
 }

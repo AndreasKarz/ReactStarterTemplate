@@ -30,6 +30,10 @@
 
 > Brings Flowbite to React with special React Components.
 
+### [iconify](https://icon-sets.iconify.design/)
+
+> Over 100,000 open source vector icons as a React Component.
+
 ## Tips
 
 ### Organize imports
@@ -51,7 +55,7 @@ yarn run tailwindcss init -p
 
 yarn add flowbite flowbite-react
 
-yarn add vite-plugin-svgr
+yarn add --dev @iconify/react
 ```
 
 ### src/index.css
