@@ -9,8 +9,8 @@ export default function Footer() {
 				<div>01</div>
 				<div className='justify-center'>{currentYear}</div>
 				<div>
-					<NavLink to='/about'>About</NavLink>
-					<NavLink to='/policy'>Privacy Policy</NavLink>
+					<NavLink to='/about'>About</NavLink>&nbsp;|&nbsp;
+					<NavLink to='/policy'>Privacy Policy</NavLink>&nbsp;|&nbsp;
 					<NavLink to='/contact'>Contact</NavLink>
 				</div>
 			</div>
