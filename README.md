@@ -1,6 +1,14 @@
-# React, React-Router, TailwindCSS, Flowbite Template
+# Complete React Starter Template
 
 > Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerplate page incl. **routing & theming**.
+>
+> Includes:
+>
+> - React 18
+> - React Router
+> - TailwindCSS
+> - Flowbite React
+> - Iconify
 
 ## Docs
 
@@ -14,7 +22,7 @@
 #### [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
 > Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
-
+>
 > There is also a [Free React Hooks Course](https://courses.webdevsimplified.com/react-hooks-simplified)
 
 ### [TailwindCSS](https://tailwindcss.com/docs/utility-first)
@@ -30,7 +38,7 @@
 
 > Brings Flowbite to React with special React Components.
 
-### [iconify](https://icon-sets.iconify.design/)
+### [Iconify](https://icon-sets.iconify.design/)
 
 > Over 100,000 open source vector icons as a React Component.
 
