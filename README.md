@@ -50,6 +50,8 @@ yarn add -D tailwindcss postcss autoprefixer
 yarn run tailwindcss init -p
 
 yarn add flowbite flowbite-react
+
+yarn add vite-plugin-svgr
 ```
 
 ### src/index.css

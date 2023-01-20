@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 export default function NavBar() {
 	return (
 		<Navbar
-			fluid={true}
-			rounded={true}
+			fluid={false}
+			rounded={false}
 		>
 			<Navbar.Brand>
 				<img
