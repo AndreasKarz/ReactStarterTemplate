@@ -21,7 +21,7 @@ Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerp
 > React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server.
 > There is a [good intrudoction](https://www.youtube.com/watch?v=Ul3y1LXxzdU) on YouTube.
 
-#### [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+#### [usehooks-ts](https://usehooks-ts.com/)
 
 > Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
 >
@@ -43,6 +43,8 @@ Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerp
 ### [Iconify](https://icon-sets.iconify.design/)
 
 > Over 100,000 open source vector icons as a React Component.
+
+### [vite-plugin-html-env](https://github.com/lxs24sxl/vite-plugin-html-env)
 
 ## Tips
 
@@ -77,6 +79,8 @@ yarn add flowbite flowbite-react
 yarn add --dev @iconify/react
 
 yarn add usehooks-ts
+
+yarn add vite-plugin-html-env -D
 ```
 
 ### src/index.css
