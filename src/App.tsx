@@ -19,6 +19,14 @@ export default function App() {
 					element={<Pages.Home />}
 				/>
 				<Route
+					path='services'
+					element={<Pages.Services />}
+				/>
+				<Route
+					path='pricing'
+					element={<Pages.Pricing />}
+				/>
+				<Route
 					path='about'
 					element={<Pages.About />}
 				/>

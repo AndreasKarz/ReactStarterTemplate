@@ -1,14 +1,14 @@
 # Complete React Starter Template
 
-> Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerplate page incl. **routing & theming**.
->
-> Includes:
->
-> - React 18
-> - React Router
-> - TailwindCSS
-> - Flowbite React
-> - Iconify
+Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerplate page incl. **routing & theming**.
+
+**Includes**:
+
+- React 18
+- React Router
+- TailwindCSS
+- Flowbite React
+- Iconify
 
 ## Docs
 
@@ -43,6 +43,15 @@
 > Over 100,000 open source vector icons as a React Component.
 
 ## Tips
+
+### VS Code extensions
+
+#### [Tailwind CSS IntelliSense](https://braydoncoyer.dev/blog/enable-autocomplete-for-tailwind-css-in-vscode)
+
+#### React
+
+- [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ### Organize imports
 
@@ -94,3 +103,23 @@ module.exports = {
 	plugins: [require('flowbite/plugin')],
 };
 ```
+
+## SEO
+
+### Allgemein
+
+[Structured routes](https://developers.google.com/search/docs/crawling-indexing/url-structure)
+[Create and deploy sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
+
+### [HTML Meta tags](https://www.w3schools.com/tags/tag_meta.asp)
+
+### Structured data
+
+[Generate structured data](https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript#use-google-tag-manager)
+[Schema markup generator](https://technicalseo.com/tools/schema-markup-generator/)
+[Markup helper](https://www.google.com/webmasters/markup-helper/)
+[Benefits](https://www.o8.agency/blog/using-structured-data-google-seo-dont-miss-out-benefits)
+
+# [TODO]
+
+- Make the Pages more beauty
