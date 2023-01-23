@@ -8,9 +8,9 @@
   <title>
     <{VITE_WEBSITE_NAME}>
   </title>
-  <description></description>
-  <keywords></keywords>
-  <meta name="author" content="John Doe">
+  <meta name="description" content="<{VITE_WEBSITE_DESCRIPTION}>">
+  <meta name="keywords" content="<{VITE_WEBSITE_KEYWORDS}>">
+  <meta name="author" content="<{VITE_WEBSITE_AUTHOR}>">
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -20,16 +20,16 @@
         "https://picsum.photos/id/1013/800/600",
         "https://picsum.photos/id/1013/1920/1080"
       ],
-      "name": "{title}",
-      "title": "{title}",
-      "description": "{description}",
+      "name": "<{VITE_WEBSITE_NAME}>",
+      "title": "<{VITE_WEBSITE_NAME}>",
+      "description": "<{VITE_WEBSITE_DESCRIPTION}>",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "{street}",
-        "addressLocality": "{city}",
-        "addressRegion": "{region}",
-        "postalCode": "{zip}",
-        "addressCountry": "{country}"
+        "streetAddress": "<{VITE_ADDRESS_STREET}>",
+        "addressLocality": "<{VITE_ADDRESS_CITY}>",
+        "addressRegion": "<{VITE_ADDRESS_REGION}>",
+        "postalCode": "<{VITE_ADDRESS_ZIP}>",
+        "addressCountry": "<{VITE_ADDRESS_COUNTRY}>"
       },
       "review": {
         "@type": "Review",
@@ -40,7 +40,7 @@
         },
         "author": {
           "@type": "Company",
-          "name": "mc2-advertising"
+          "name": "<{VITE_WEBSITE_AUTHOR}>"
         }
       },
       "geo": {
@@ -50,7 +50,7 @@
       },
       "brand": {brands},
       "url": "{url}",
-      "telephone": "{phone}",
+      "telephone": "<{VITE_PHONE}>",
       "paymentAccepted": "{paymentAccepted}",
       "currenciesAccepted": "{currenciesAccepted}",
       "priceRange": "{priceRange}",
