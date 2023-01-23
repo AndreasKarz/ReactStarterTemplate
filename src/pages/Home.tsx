@@ -1,4 +1,8 @@
+import { useDocumentTitle } from 'usehooks-ts';
+
 export default function Home() {
+	useDocumentTitle(`HOME - ${import.meta.env.VITE_WEBSITE_NAME}`);
+
 	return (
 		<div className='container mx-auto px-4 mt-12'>
 			<h1 className='mb-4 text-4xl font-light leading-none tracking-tight text-gray-500 md:text-5xl lg:text-6xl dark:text-white'>

@@ -12,6 +12,8 @@ Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerp
 
 ## Docs
 
+### [Vite](https://vitejs.dev/guide/env-and-mode.html)
+
 ### [React](https://reactjs.org/docs/getting-started.html)
 
 #### [React Router](https://reactrouter.com/en/main/start/overview)
@@ -73,6 +75,8 @@ yarn run tailwindcss init -p
 yarn add flowbite flowbite-react
 
 yarn add --dev @iconify/react
+
+yarn add usehooks-ts
 ```
 
 ### src/index.css
@@ -123,3 +127,4 @@ module.exports = {
 # [TODO]
 
 - Make the Pages more beauty
+- Location as function

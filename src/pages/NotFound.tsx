@@ -1,5 +1,6 @@
 import Countdown from 'react-countdown';
 import { useNavigate } from 'react-router-dom';
+import { useDocumentTitle } from 'usehooks-ts';
 
 /**
  * A customizable countdown component for React.
@@ -7,6 +8,7 @@ import { useNavigate } from 'react-router-dom';
  */
 
 export default function NotFound() {
+	useDocumentTitle(`NOT FOUND - ${import.meta.env.VITE_WEBSITE_NAME}`);
 	const navigate = useNavigate();
 
 	const renderer = ({ seconds, completed }) => {
