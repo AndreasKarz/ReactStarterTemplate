@@ -11,3 +11,7 @@ footer {
 	position: fixed;
 	bottom: 0;
 }
+
+body {
+	padding-bottom: 80px;
+}
