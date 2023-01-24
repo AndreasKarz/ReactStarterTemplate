@@ -9,8 +9,8 @@ export default function Footer() {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className='container w-full pb-3'>
-			<div className='flex justify-between'>
+		<footer className='w-full pb-2 bg-gray-100'>
+			<div className='container flex justify-between w-full mt-4'>
 				<div>
 					{' '}
 					<Icon

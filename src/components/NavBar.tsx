@@ -10,6 +10,7 @@ export default function NavBar() {
 		<Navbar
 			fluid={false}
 			rounded={false}
+			className='bg-gray-200'
 		>
 			<Navbar.Brand>
 				<img
