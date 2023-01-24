@@ -1,7 +1,7 @@
-import { useDocumentTitle } from 'usehooks-ts';
+import useSetDocumentTitle from '../hooks/useSetDocumentTitle';
 
 function About() {
-	useDocumentTitle(`ABOUT - ${import.meta.env.VITE_WEBSITE_NAME}`);
+	useSetDocumentTitle();
 
 	return <div>About</div>;
 }

@@ -132,4 +132,3 @@ module.exports = {
 
 - Complete ld+json
 - Make the Pages more beauty
-- Location as function

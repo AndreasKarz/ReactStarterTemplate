@@ -1,7 +1,7 @@
-import { useDocumentTitle } from 'usehooks-ts';
+import useSetDocumentTitle from '../hooks/useSetDocumentTitle';
 
 function Policy() {
-	useDocumentTitle(`PRIVACY - ${import.meta.env.VITE_WEBSITE_NAME}`);
+	useSetDocumentTitle();
 
 	return <div>Policy</div>;
 }

@@ -1,9 +1,7 @@
-import { useDocumentTitle } from 'usehooks-ts';
-import { useLocation } from 'react-router-dom';
+import useSetDocumentTitle from '../hooks/useSetDocumentTitle';
 
-function Services() {
-	const location = useLocation().pathname.replaceAll('/', ' > ').toUpperCase();
-	useDocumentTitle(`${import.meta.env.VITE_WEBSITE_NAME}${location}`);
+export default function Services() {
+	useSetDocumentTitle({ separator: '-', reverse: true });
 
 	let openingHours = JSON.parse(import.meta.env.VITE_OPENING_HOURS);
 
@@ -16,5 +14,3 @@ function Services() {
 		</>
 	);
 }
-
-export default Services;

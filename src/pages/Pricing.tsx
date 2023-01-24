@@ -1,7 +1,7 @@
-import { useDocumentTitle } from 'usehooks-ts';
+import useSetDocumentTitle from '../hooks/useSetDocumentTitle';
 
 export default function Pricing() {
-	useDocumentTitle(`PRICING - ${import.meta.env.VITE_WEBSITE_NAME}`);
+	useSetDocumentTitle({ separator: '-', reverse: true });
 
 	return <div>Pricing</div>;
 }
