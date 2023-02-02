@@ -36,7 +36,7 @@ Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerp
 
 > Get started with the most popular open-source library of interactive UI components built with the utility classes from Tailwind CSS.
 
-### [Flowbite React](https://flowbite-react.com/)
+#### [Flowbite React](https://flowbite-react.com/)
 
 > Brings Flowbite to React with special React Components.
 
@@ -112,21 +112,49 @@ module.exports = {
 };
 ```
 
-## SEO
+## Helpers
 
-### Allgemein
+### Layout & Design
+
+[CSS Layout Generator](https://layout.bradwoods.io/)
+
+[CSS Gradient](https://cssgradient.io/)
+
+[CSS Background Patterns](https://www.magicpattern.design/tools/css-backgrounds)
+
+[Responsively App](https://responsively.app/)
+
+### SEO
+
+#### Allgemein
 
 [Structured routes](https://developers.google.com/search/docs/crawling-indexing/url-structure)
 [Create and deploy sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
 
-### [HTML Meta tags](https://www.w3schools.com/tags/tag_meta.asp)
+#### [HTML Meta tags](https://www.w3schools.com/tags/tag_meta.asp)
 
-### Structured data
+[It's a simple guide to HTML](https://htmlhead.dev/)
+
+#### Structured data
 
 [Generate structured data](https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript#use-google-tag-manager)
 [Schema markup generator](https://technicalseo.com/tools/schema-markup-generator/)
 [Markup helper](https://www.google.com/webmasters/markup-helper/)
 [Benefits](https://www.o8.agency/blog/using-structured-data-google-seo-dont-miss-out-benefits)
+
+## Learn
+
+[This One Line Of Code Catches React Bugs For You](https://www.youtube.com/watch?v=XUwzASyHr4Q)
+
+[Most Beginner React Developers Do This Wrong](https://www.youtube.com/watch?v=E1cklb4aeXA)
+
+[React Hooks Simplified Free Course](https://courses.webdevsimplified.com/react-hooks-simplified)
+
+## Channels to follow
+
+[Web Dev Simplified (React)](https://www.youtube.com/@WebDevSimplified)
+
+[Kevin Powell (CSS)](https://www.youtube.com/@KevinPowell)
 
 # [TODO]
 
