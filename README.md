@@ -6,6 +6,8 @@ Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerp
 
 - React 18
 - React Router
+- React Query (comming soon)
+- Axios
 - TailwindCSS
 - Flowbite React
 - Iconify
@@ -20,6 +22,14 @@ Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerp
 
 > React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server.
 > There is a [good intrudoction](https://www.youtube.com/watch?v=Ul3y1LXxzdU) on YouTube.
+
+#### [React Query](https://react-query-v3.tanstack.com/)
+
+> Performant and powerful data synchronization for React
+
+#### [Axios](https://axios-http.com/docs/intro)
+
+> Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase).
 
 #### [usehooks-ts](https://usehooks-ts.com/)
 
@@ -158,5 +168,7 @@ module.exports = {
 
 # [TODO]
 
+- Add https://react-query-v3.tanstack.com/
+  - https://jsonplaceholder.typicode.com/posts
 - Complete ld+json
 - Make the Pages more beauty
