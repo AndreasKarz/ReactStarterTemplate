@@ -26,6 +26,9 @@ Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerp
 #### [React Query](https://react-query-v3.tanstack.com/)
 
 > Performant and powerful data synchronization for React
+>
+> - [React Query Makes Writing React Code 200% Better](https://www.youtube.com/watch?v=lVLz_ASqAio)
+> - [Learn React Query In 50 Minutes](https://www.youtube.com/watch?v=r8Dg0KVnfMA)
 
 #### [Axios](https://axios-http.com/docs/intro)
 
