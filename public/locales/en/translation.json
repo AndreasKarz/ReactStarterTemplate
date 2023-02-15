@@ -1,0 +1,14 @@
+{
+	"hero1": "Be focused on your software development.",
+	"hero2": "We write your tests!",
+	"intro": "Facilitate your agile software development with our automated testing support. Our team uses Playwright, Selenium and Specflow to write efficient and reliable test suites. Let us take care of your testing so you can focus on your app development.",
+	"nav": {
+		"home": "Home",
+		"blog": "Blog",
+		"about": "About",
+		"services": "Services",
+		"contact": "Contact"
+	},
+	"comming": "Our homepage will soon be ready",
+	"router": "React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server."
+}

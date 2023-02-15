@@ -23,6 +23,8 @@ Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerp
 > React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server.
 > There is a [good intrudoction](https://www.youtube.com/watch?v=Ul3y1LXxzdU) on YouTube.
 
+#### [React i18n](https://react.i18next.com/)
+
 #### [React Query](https://react-query-v3.tanstack.com/)
 
 > Performant and powerful data synchronization for React
@@ -94,6 +96,14 @@ yarn add --dev @iconify/react
 yarn add usehooks-ts
 
 yarn add vite-plugin-html-env -D
+
+yarn add i18next
+
+yarn add i18next-browser-languagedetector
+
+yarn add i18next-http-backend
+
+yarn add react-i18next
 ```
 
 ### src/index.css

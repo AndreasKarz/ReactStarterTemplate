@@ -1,7 +1,9 @@
 import useSetDocumentTitle from '../hooks/useSetDocumentTitle';
+import { useTranslation, Trans } from 'react-i18next';
 
 export default function Home() {
 	useSetDocumentTitle();
+	const { t } = useTranslation();
 
 	return (
 		<div className='container mx-auto px-4 mt-12'>
@@ -16,11 +18,7 @@ export default function Home() {
 				<dt className='text-xl font-bold mt-4'>React</dt>
 				<dd className='text-sm'></dd>
 				<dt className='text-xl font-bold mt-4'>React Router</dt>
-				<dd className='text-sm'>
-					React Router enables _client side routing_. Client side routing allows your app to update
-					the URL from a link click without making another request for another document from the
-					server.
-				</dd>
+				<dd className='text-sm'>{t('router')}</dd>
 				<dt className='text-xl font-bold mt-4'>Tailwind CSS</dt>
 				<dd className='text-sm'>
 					A utility-first CSS framework packed with classes like flex, pt-4, text-center and
