@@ -181,6 +181,7 @@ module.exports = {
 
 # [TODO]
 
+- User Code Splitting => https://www.youtube.com/watch?v=JU6sl_yyZqs
 - Add https://react-query-v3.tanstack.com/
   - https://jsonplaceholder.typicode.com/posts
 - Complete ld+json
