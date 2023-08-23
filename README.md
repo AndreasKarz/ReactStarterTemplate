@@ -1,46 +1,44 @@
 # Complete React Starter Template
 
-Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerplate page incl. **routing & theming**.
+Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all technologies** you need. If you work with Visual Studio Code, install the **[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)** extension for a better experience.
 
-**Includes**:
+## Base
 
-- React 18
-- React Router
-- React Query (comming soon)
-- Axios
-- TailwindCSS
-- Flowbite React
-- Iconify
+### [Vite](https://vitejs.dev/guide/)
 
-## Docs
-
-### [Vite](https://vitejs.dev/guide/env-and-mode.html)
+> Vite (French word for "quick", pronounced /vit/, like "veet") is a build tool that aims to provide a faster and leaner development experience for modern web projects.
+>
+> In this template we use Vite not just as build tool. In the index.html you will see, **how the environment variables are injected** into the html file. This is done by the **[vite-plugin-html-env](https://vitejs.dev/guide/env-and-mode.html)**
 
 ### [React](https://reactjs.org/docs/getting-started.html)
 
-#### [React Router](https://reactrouter.com/en/main/start/overview)
+> [Most Beginner React Developers Do This Wrong](https://www.youtube.com/watch?v=E1cklb4aeXA)
+>
+> [This One Line Of Code Catches React Bugs For You](https://www.youtube.com/watch?v=XUwzASyHr4Q)
+
+## Extensions
+
+### [vite-plugin-html-env](https://vitejs.dev/guide/env-and-mode.html)
+
+### [React Router](https://reactrouter.com/en/main/start/overview)
 
 > React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server.
+>
 > There is a [good intrudoction](https://www.youtube.com/watch?v=Ul3y1LXxzdU) on YouTube.
 
-#### [React i18n](https://react.i18next.com/)
+### [React i18n](https://react.i18next.com/)
 
-#### [React Query](https://react-query-v3.tanstack.com/)
+### [React Helmet](https://www.freecodecamp.org/news/react-helmet-examples/)
 
-> Performant and powerful data synchronization for React
->
-> - [React Query Makes Writing React Code 200% Better](https://www.youtube.com/watch?v=lVLz_ASqAio)
-> - [Learn React Query In 50 Minutes](https://www.youtube.com/watch?v=r8Dg0KVnfMA)
+### [usehooks-ts](https://usehooks-ts.com/)
 
-#### [Axios](https://axios-http.com/docs/intro)
-
-> Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase).
-
-#### [usehooks-ts](https://usehooks-ts.com/)
-
-> Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
+> React hook library, ready to use, written in Typescript.
 >
 > There is also a [Free React Hooks Course](https://courses.webdevsimplified.com/react-hooks-simplified)
+
+### [Iconify](https://icon-sets.iconify.design/)
+
+> Over 100,000 open source vector icons as a React Component.
 
 ### [TailwindCSS](https://tailwindcss.com/docs/utility-first)
 
@@ -51,89 +49,54 @@ Starter template based on [Vite](https://vitejs.dev/guide/) with a small boilerp
 
 > Get started with the most popular open-source library of interactive UI components built with the utility classes from Tailwind CSS.
 
-#### [Flowbite React](https://flowbite-react.com/)
+### [Flowbite React](https://flowbite-react.com/)
 
 > Brings Flowbite to React with special React Components.
 
-### [Iconify](https://icon-sets.iconify.design/)
+### [LocalForage (comming soon)](https://localforage.github.io/localForage/)
 
-> Over 100,000 open source vector icons as a React Component.
+### [Axios (comming soon)](https://axios-http.com/docs/intro)
 
-### [vite-plugin-html-env](https://github.com/lxs24sxl/vite-plugin-html-env)
+> Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase).
 
-## Tips
+### [react-query (comming soon)](https://react-query-v3.tanstack.com/)
 
-### VS Code extensions
+> Performant and powerful data synchronization for React
+>
+> - [React Query Makes Writing React Code 200% Better](https://www.youtube.com/watch?v=lVLz_ASqAio)
+> - [Learn React Query In 50 Minutes](https://www.youtube.com/watch?v=r8Dg0KVnfMA)
 
-#### [Tailwind CSS IntelliSense](https://braydoncoyer.dev/blog/enable-autocomplete-for-tailwind-css-in-vscode)
+### Lodash (comming soon)
 
-#### React
+### .
 
-- [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+###
+
+###
+
+#### .
+
+####
+
+####
+
+#### .
+
+####
+
+####
+
+###
+
+###
+
+###
+
+##
 
 ### Organize imports
 
 > Shift + Alt + O
-
-## Manual installation
-
-```powershell
-yarn create vite my-app --template react-swc-ts
-
-cd my-app
-
-yarn add react-router-dom localforage match-sorter sort-by
-
-yarn add -D tailwindcss postcss autoprefixer
-
-yarn run tailwindcss init -p
-
-yarn add flowbite flowbite-react
-
-yarn add --dev @iconify/react
-
-yarn add usehooks-ts
-
-yarn add vite-plugin-html-env -D
-
-yarn add i18next
-
-yarn add i18next-browser-languagedetector
-
-yarn add i18next-http-backend
-
-yarn add react-i18next
-```
-
-### src/index.css
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-### tailwind.config.cjs
-
-```js
-/** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors');
-
-module.exports = {
-	content: ['./src/**/*.{js,jsx,ts,tsx}', 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'],
-	theme: {
-		colors: {
-			gray: colors.coolGray,
-			blue: colors.lightBlue,
-			red: colors.rose,
-			pink: colors.fuchsia,
-		},
-		extend: {},
-	},
-	plugins: [require('flowbite/plugin')],
-};
-```
 
 ## Helpers
 
@@ -166,14 +129,6 @@ module.exports = {
 [Benefits](https://www.o8.agency/blog/using-structured-data-google-seo-dont-miss-out-benefits)
 
 ## Learn
-
-[Learn React Router v6 in 45 minutes](https://www.youtube.com/watch?v=Ul3y1LXxzdU)
-
-[This One Line Of Code Catches React Bugs For You](https://www.youtube.com/watch?v=XUwzASyHr4Q)
-
-[Most Beginner React Developers Do This Wrong](https://www.youtube.com/watch?v=E1cklb4aeXA)
-
-[React Hooks Simplified Free Course](https://courses.webdevsimplified.com/react-hooks-simplified)
 
 ## Channels to follow
 

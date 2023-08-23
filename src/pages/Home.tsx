@@ -1,5 +1,5 @@
 import useSetDocumentTitle from '../hooks/useSetDocumentTitle';
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
 	useSetDocumentTitle();
@@ -41,10 +41,10 @@ export default function Home() {
 				</div>
 				<div className='basis-1/4 bg-h1_light-200 shadow-xl'>02</div>
 				<div className='basis-1/4 bg-yellow-100 shadow-xl'>03</div>
-				<div className='basis-1/4 bg-purple-300'>
+				<div className='basis-1/4 bg-h1_light-300'>
 					<a
 						href='#'
-						className='block max-w-sm p-6 bg-white border border-gray-200 shadow-xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'
+						className='block max-w-sm p-6 border border-gray-200 shadow-xl hover:bg-gray-200 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'
 					>
 						<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
 							Noteworthy technology acquisitions 2021

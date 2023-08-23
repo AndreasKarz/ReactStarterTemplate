@@ -12,5 +12,12 @@
 		"legal": "Legal disclaimer"
 	},
 	"comming": "Our homepage will soon be ready",
-	"router": "React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server."
+	"router": "React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server.",
+	"contact": {
+		"seo": {
+			"title": "Contact - we will love to test your software!",
+			"description": "Please contact us if you want to test your software. We will love to help you!",
+			"keywords": "Kontakt, Testen, Software, Test, Automatisiert, Playwright, Selenium, Specflow"
+		}
+	}
 }
