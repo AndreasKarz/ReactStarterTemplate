@@ -6,9 +6,9 @@ Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all tech
 
 ### [Vite](https://vitejs.dev/guide/)
 
-> Vite (French word for "quick", pronounced /vit/, like "veet") is a build tool that aims to provide a faster and leaner development experience for modern web projects.
+> Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 >
-> In this template we use Vite not just as build tool. In the index.html you will see, **how the environment variables are injected** into the html file. This is done by the **[vite-plugin-html-env](https://vitejs.dev/guide/env-and-mode.html)**
+> In this template we use Vite not just as build tool. In the index.html you will see, **how the environment variables are injected** into the `index.html` file. This is done by the **[vite-plugin-html-env](https://vitejs.dev/guide/env-and-mode.html)**
 
 ### [React](https://reactjs.org/docs/getting-started.html)
 
