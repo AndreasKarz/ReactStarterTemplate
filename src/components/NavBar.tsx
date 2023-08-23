@@ -4,8 +4,11 @@
  */
 import { Navbar } from 'flowbite-react';
 import NavBarLink from './NavBarLink';
+import { useTranslation } from 'react-i18next';
 
 export default function NavBar() {
+	const { t } = useTranslation();
+
 	return (
 		<Navbar
 			fluid={false}
@@ -27,27 +30,27 @@ export default function NavBar() {
 				<NavBarLink
 					to='/'
 					icon='fluent:home-12-regular'
-					label='Home'
+					label={t('nav.home')}
 				/>
 				<NavBarLink
 					to='/services'
 					icon='fluent:service-bell-20-regular'
-					label='Services'
+					label={t('nav.services')}
 				/>
 				<NavBarLink
 					to='/pricing'
 					icon='fluent:money-24-regular'
-					label='Pricing'
+					label={t('nav.prices')}
 				/>
 				<NavBarLink
 					to='/contact'
 					icon='fluent:contact-card-ribbon-16-regular'
-					label='Contact'
+					label={t('nav.contact')}
 				/>
 				<NavBarLink
 					to='/about'
 					icon='fluent:people-team-20-regular'
-					label='About'
+					label={t('nav.about')}
 				/>
 			</Navbar.Collapse>
 		</Navbar>

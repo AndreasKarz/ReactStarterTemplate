@@ -167,6 +167,8 @@ module.exports = {
 
 ## Learn
 
+[Learn React Router v6 in 45 minutes](https://www.youtube.com/watch?v=Ul3y1LXxzdU)
+
 [This One Line Of Code Catches React Bugs For You](https://www.youtube.com/watch?v=XUwzASyHr4Q)
 
 [Most Beginner React Developers Do This Wrong](https://www.youtube.com/watch?v=E1cklb4aeXA)

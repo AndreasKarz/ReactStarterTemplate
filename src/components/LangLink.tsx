@@ -16,7 +16,10 @@ export default function LangLink(props: LinkProps) {
 
 	return (
 		<div
-			onClick={() => i18n.changeLanguage(props.lang)}
+			onClick={() => {
+				localStorage.i18nextLng = props.lang;
+				i18n.changeLanguage(props.lang);
+			}}
 			className='leading-7'
 			style={{ cursor: 'pointer' }}
 		>

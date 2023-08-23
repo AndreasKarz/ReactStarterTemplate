@@ -7,7 +7,9 @@
 		"blog": "News",
 		"about": "Über uns",
 		"services": "Dienstleistungen",
-		"contact": "Kontakt"
+		"prices": "Preisliste",
+		"contact": "Kontakt",
+		"legal": "Rechtliche Hinweise"
 	},
 	"comming": "Unsere Homepage ist demnächst bereit",
 	"router": "React Router ermöglicht _client side routing_. Clientseitiges Routing ermöglicht es Ihrer Anwendung, die URL nach einem Link-Klick zu aktualisieren, ohne eine weitere Anfrage für ein anderes Dokument vom Server zu stellen."

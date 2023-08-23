@@ -2,7 +2,6 @@
  * https://icon-sets.iconify.design/
  * https://tailwindcss.com/docs/margin
  */
-import { Icon } from '@iconify/react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LangLink from './LangLink';
@@ -20,9 +19,9 @@ export default function Footer() {
 				</div>
 				<div className='justify-center'>{currentYear}</div>
 				<div>
-					<NavLink to='/about'>About</NavLink>&nbsp;|&nbsp;
-					<NavLink to='/policy'>Privacy Policy</NavLink>&nbsp;|&nbsp;
-					<NavLink to='/contact'>Contact</NavLink>
+					<NavLink to='/about'>{t('nav.about')}</NavLink>&nbsp;|&nbsp;
+					<NavLink to='/policy'>{t('nav.legal')}</NavLink>&nbsp;|&nbsp;
+					<NavLink to='/contact'>{t('nav.contact')}</NavLink>
 				</div>
 			</div>
 		</footer>

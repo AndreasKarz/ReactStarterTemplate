@@ -11,11 +11,12 @@ export default function NotFound() {
 	useSetDocumentTitle();
 	const navigate = useNavigate();
 
-	const renderer = ({ seconds, completed }) => {
+	// How can I solve the issue with the any type?
+	const renderer = ({ seconds, completed }: { seconds: Number; completed: Boolean }) => {
 		if (completed) {
 			navigate(-1);
 		} else {
-			return <span>{seconds}</span>;
+			return <span>{seconds.toString()}</span>;
 		}
 	};
 

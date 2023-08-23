@@ -7,7 +7,9 @@
 		"blog": "Blog",
 		"about": "About",
 		"services": "Services",
-		"contact": "Contact"
+		"prices": "Pricing",
+		"contact": "Contact",
+		"legal": "Legal disclaimer"
 	},
 	"comming": "Our homepage will soon be ready",
 	"router": "React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server."

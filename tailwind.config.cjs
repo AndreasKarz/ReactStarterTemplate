@@ -7,7 +7,11 @@ const colors = require('tailwindcss/colors');
  */
 
 module.exports = {
-	content: ['./src/**/*.{js,jsx,ts,tsx}', 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'],
+	content: [
+		'./src/**/*.{html,js,jsx,ts,tsx}',
+		'./src/*.{html,js,jsx,ts,tsx}',
+		'node_modules/flowbite-react/**/*.{html,js,jsx,ts,tsx}',
+	],
 	theme: {
 		fontWeight: {
 			hairline: 100,
@@ -26,8 +30,8 @@ module.exports = {
 		},
 		colors: {
 			/* Define your color schema here */
-			gray: colors.coolGray,
-			blue: colors.lightBlue,
+			gray: colors.gray,
+			blue: colors.sky,
 			red: colors.rose,
 			h1_light: colors.fuchsia,
 		},

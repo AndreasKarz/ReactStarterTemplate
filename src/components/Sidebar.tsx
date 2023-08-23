@@ -1,5 +1,5 @@
 import { Sidebar } from 'flowbite-react';
-import { ReactComponent as Logo } from '../assets/react.svg';
+// import { ReactComponent as Logo } from '../assets/react.svg';
 
 function SideBar() {
 	return (
@@ -18,7 +18,7 @@ function SideBar() {
 							href='#'
 							label='Pro'
 							labelColor='alternative'
-							icon={Logo}
+							icon='../assets/react.svg'
 						>
 							Kanban
 						</Sidebar.Item>
