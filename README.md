@@ -16,57 +16,57 @@ Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all tech
 >
 > [This One Line Of Code Catches React Bugs For You](https://www.youtube.com/watch?v=XUwzASyHr4Q)
 
-## Extensions
-
-### [vite-plugin-html-env](https://vitejs.dev/guide/env-and-mode.html)
-
-### [React Router](https://reactrouter.com/en/main/start/overview)
-
-> React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server.
->
-> There is a [good intrudoction](https://www.youtube.com/watch?v=Ul3y1LXxzdU) on YouTube.
-
-### [React i18n](https://react.i18next.com/)
-
-### [React Helmet](https://www.freecodecamp.org/news/react-helmet-examples/)
-
-### [usehooks-ts](https://usehooks-ts.com/)
-
-> React hook library, ready to use, written in Typescript.
->
-> There is also a [Free React Hooks Course](https://courses.webdevsimplified.com/react-hooks-simplified)
-
-### [Iconify](https://icon-sets.iconify.design/)
-
-> Over 100,000 open source vector icons as a React Component.
-
 ### [TailwindCSS](https://tailwindcss.com/docs/utility-first)
 
 > A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 > A special section ist [theming](https://flowbite.com/docs/customize/theming/) your website.
 
-### [Flowbite](https://flowbite.com/docs/getting-started/introduction/)
+### [Float UI (comming soon)](https://floatui.com/)
 
-> Get started with the most popular open-source library of interactive UI components built with the utility classes from Tailwind CSS.
+> Move faster with beautiful, responsive UI components and website templates with modern design, 100% free and open-source.
 
-### [Flowbite React](https://flowbite-react.com/)
+## Extensions
 
-> Brings Flowbite to React with special React Components.
+### General
 
-### [LocalForage (comming soon)](https://localforage.github.io/localForage/)
+#### [vite-plugin-html-env](https://vitejs.dev/guide/env-and-mode.html)
 
-### [Axios (comming soon)](https://axios-http.com/docs/intro)
+#### [LocalForage (comming soon)](https://localforage.github.io/localForage/)
+
+#### [Axios (comming soon)](https://axios-http.com/docs/intro)
 
 > Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase).
 
-### [react-query (comming soon)](https://react-query-v3.tanstack.com/)
+#### Lodash (comming soon)
+
+### React
+
+#### [React Router](https://reactrouter.com/en/main/start/overview)
+
+> React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server.
+>
+> There is a [good intrudoction](https://www.youtube.com/watch?v=Ul3y1LXxzdU) on YouTube.
+
+#### [React i18n](https://react.i18next.com/)
+
+#### [React Helmet](https://www.freecodecamp.org/news/react-helmet-examples/)
+
+#### [usehooks-ts](https://usehooks-ts.com/)
+
+> React hook library, ready to use, written in Typescript.
+>
+> There is also a [Free React Hooks Course](https://courses.webdevsimplified.com/react-hooks-simplified)
+
+#### [react-query (comming soon)](https://react-query-v3.tanstack.com/)
 
 > Performant and powerful data synchronization for React
 >
 > - [React Query Makes Writing React Code 200% Better](https://www.youtube.com/watch?v=lVLz_ASqAio)
 > - [Learn React Query In 50 Minutes](https://www.youtube.com/watch?v=r8Dg0KVnfMA)
 
-### Lodash (comming soon)
+#### [Iconify](https://icon-sets.iconify.design/)
+
+> Over 100,000 open source vector icons as a React Component.
 
 ### .
 
@@ -138,6 +138,7 @@ Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all tech
 
 # [TODO]
 
+- switch Flowbite to https://floatui.com/
 - User Code Splitting => https://www.youtube.com/watch?v=JU6sl_yyZqs
 - Add https://react-query-v3.tanstack.com/
   - https://jsonplaceholder.typicode.com/posts
