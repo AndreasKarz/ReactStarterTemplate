@@ -1,5 +1,8 @@
 @tailwind base;
 @tailwind components;
+.page {
+	@apply px-3 max-w-screen-xl mx-auto md:px-0  my-5 md:my-16;
+}
 @tailwind utilities;
 
 /* https://dev.to/mnathani/two-lines-of-css-that-boosts-7x-rendering-performance-4mjd */

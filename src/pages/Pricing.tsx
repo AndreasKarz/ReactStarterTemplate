@@ -39,7 +39,7 @@ export default function Pricing() {
 					content="{t('pricing.seo.keywords')}"
 				></meta>
 			</Helmet>
-			<div className='px-3 max-w-screen-xl mx-auto md:px-0 my-5 md:my-16'>
+			<div className='page'>
 				<section className='py-14'>
 					<div className='max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8'>
 						<div className='relative max-w-xl mx-auto sm:text-center'>

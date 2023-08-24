@@ -25,6 +25,8 @@ You should already have an Know-how of React, Typescript and Javascript for this
 
 > A utility-first **CSS framework** packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 > A special section ist **[theming](https://flowbite.com/docs/customize/theming/)** your website. To work with Visual Studio Code, the **[Editor Setup](https://tailwindcss.com/docs/editor-setup)** is important!
+>
+> [Designing with Tailwind CSS: Composing Utilities with @apply](https://www.youtube.com/watch?v=krSgBUmIgP0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=2)
 
 ### [Float UI (comming soon)](https://floatui.com/)
 

@@ -17,7 +17,15 @@ export default function Footer() {
 					{i18n.language != 'de' && <LangLink lang='de' />}
 					{i18n.language != 'en' && <LangLink lang='en' />}
 				</div>
-				<div className='justify-center'>{currentYear}</div>
+				<div className='justify-center'>
+					{currentYear} &nbsp;
+					<span className='hidden xso:inline-block'>xs</span>
+					<span className='hidden smo:inline-block'>sm</span>
+					<span className='hidden mdo:inline-block'>md</span>
+					<span className='hidden lgo:inline-block'>lg</span>
+					<span className='hidden xlo:inline-block'>xl</span>
+					<span className='hidden 2xlo:inline-block'>2xl</span>
+				</div>
 				<div>
 					<NavLink to='/about'>{t('nav.about')}</NavLink>&nbsp;|&nbsp;
 					<NavLink to='/policy'>{t('nav.legal')}</NavLink>&nbsp;|&nbsp;
