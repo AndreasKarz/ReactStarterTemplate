@@ -9,21 +9,26 @@ Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all tech
 > Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 >
 > In this template we use Vite not just as build tool. In the index.html you will see, **how the environment variables are injected** into the `index.html` file. This is done by the **[vite-plugin-html-env](https://vitejs.dev/guide/env-and-mode.html)**
-
-### [React](https://reactjs.org/docs/getting-started.html)
-
-> [Most Beginner React Developers Do This Wrong](https://www.youtube.com/watch?v=E1cklb4aeXA)
 >
-> [This One Line Of Code Catches React Bugs For You](https://www.youtube.com/watch?v=XUwzASyHr4Q)
+> **[Learn Vite – Frontend Build Tool Course](https://www.youtube.com/watch?v=VAeRhmpcWEQ)**
+
+### [React](https://react.dev/reference/react)
+
+React lets you build user interfaces out of individual pieces called components.
+You should already have an Know-how of React, Typescript and Javascript for this template. If not, **you can learn it here** **[React with TypeScript Crash Course](https://www.youtube.com/watch?v=jrKcJxF0lAU)**.
+
+> **[Most Beginner React Developers Do This Wrong](https://www.youtube.com/watch?v=E1cklb4aeXA)**
+>
+> **[This One Line Of Code Catches React Bugs For You](https://www.youtube.com/watch?v=XUwzASyHr4Q)**
 
 ### [TailwindCSS](https://tailwindcss.com/docs/utility-first)
 
-> A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
-> A special section ist [theming](https://flowbite.com/docs/customize/theming/) your website.
+> A utility-first **CSS framework** packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+> A special section ist **[theming](https://flowbite.com/docs/customize/theming/)** your website. To work with Visual Studio Code, the **[Editor Setup](https://tailwindcss.com/docs/editor-setup)** is important!
 
 ### [Float UI (comming soon)](https://floatui.com/)
 
-> Move faster with beautiful, responsive UI components and website templates with modern design, 100% free and open-source.
+> Move faster with beautiful, responsive **[UI components](https://floatui.com/components)** and website templates with modern design, **100% free** and open-source based on Tailwind.
 
 ## Extensions
 
@@ -31,25 +36,37 @@ Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all tech
 
 #### [vite-plugin-html-env](https://vitejs.dev/guide/env-and-mode.html)
 
-#### [LocalForage (comming soon)](https://localforage.github.io/localForage/)
+With this Vite plugin you can **inject environment variables** into static files like `index.html`.
 
-#### [Axios (comming soon)](https://axios-http.com/docs/intro)
+#### [LocalForage](https://localforage.github.io/localForage/) (comming soon)
 
-> Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase).
+localForage is a JavaScript library that **improves the offline experience** of your web app by using an asynchronous data store with a simple, localStorage-like API. It allows developers to store many types of data instead of just strings.
 
-#### Lodash (comming soon)
+#### [Axios](https://axios-http.com/docs/intro) (comming soon)
+
+> Axios is a **promise-based HTTP Client** for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase).
+
+#### [Lodash](https://lodash.com/) (comming soon)
+
+Lodash is a JavaScript library that helps programmers write more concise and maintainable JavaScript. It is a collection of methods that helps **perform common tasks with arrays, numbers, objects, strings, etc.**
 
 ### React
 
 #### [React Router](https://reactrouter.com/en/main/start/overview)
 
-> React Router enables _client side routing_. Client side routing allows your app to update the URL from a link click without making another request for another document from the server.
+> React Router enables **client side routing**. Client side routing allows your app to update the URL from a link click without making another request for another document from the server.
 >
 > There is a [good intrudoction](https://www.youtube.com/watch?v=Ul3y1LXxzdU) on YouTube.
 
 #### [React i18n](https://react.i18next.com/)
 
+> react-i18next is a powerful internationalization framework for React / React Native which is based on i18next.
+>
+> [i18next Crash Course](https://www.youtube.com/watch?v=SA_9i4TtxLQ)
+
 #### [React Helmet](https://www.freecodecamp.org/news/react-helmet-examples/)
+
+> Because of the nature of single page applications (SPAs), modifying metadata in React apps can be tricky without using a helper library. Lucky for us, that library already exists – and it's called React Helmet.
 
 #### [usehooks-ts](https://usehooks-ts.com/)
 
@@ -68,33 +85,9 @@ Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all tech
 
 > Over 100,000 open source vector icons as a React Component.
 
-### .
+## Tipps & Tricks
 
-###
-
-###
-
-#### .
-
-####
-
-####
-
-#### .
-
-####
-
-####
-
-###
-
-###
-
-###
-
-##
-
-### Organize imports
+### Organize imports in Visual Studio Code
 
 > Shift + Alt + O
 
@@ -102,13 +95,11 @@ Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all tech
 
 ### Layout & Design
 
-[CSS Layout Generator](https://layout.bradwoods.io/)
-
-[CSS Gradient](https://cssgradient.io/)
-
-[CSS Background Patterns](https://www.magicpattern.design/tools/css-backgrounds)
-
 [Responsively App](https://responsively.app/)
+
+> Master the Art of Crafting Responsive Web Apps like a Pro!
+
+[CSS Layout Generator](https://layout.bradwoods.io/)
 
 ### SEO
 
@@ -128,7 +119,27 @@ Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all tech
 [Markup helper](https://www.google.com/webmasters/markup-helper/)
 [Benefits](https://www.o8.agency/blog/using-structured-data-google-seo-dont-miss-out-benefits)
 
-## Learn
+## Tools
+
+### [Milanote](https://milanote.com/)
+
+> Milanote is an easy-to-use **tool to organize your ideas and projects** into visual boards. Add notes, images, links and files, organize them visually and share them with your team.
+>
+> [Milanote tutorial for beginners (building a second brain)](https://www.youtube.com/watch?v=XViFrkO_Sl0)
+
+### [Canva](https://www.canva.com/)
+
+Canva is a **graphic design platform for creating visual content**. The software works according to the drag-and-drop principle and already contains templates, images, fonts and graphic elements that can be used by the users. The use is basically **free of charge**, but Canva also offers the paid extensions "Pro" and "Enterprise", with which further functions and content can be unlocked.
+
+> [Extend creativity with Canva Developers](https://www.youtube.com/watch?v=EAdE7a-VyXY)
+>
+> [Canva on YouTube](https://www.youtube.com/@canva/videos)
+
+### [Figma](https://www.figma.com/)
+
+> Figma is a collaborative software for **prototyping** in the field of **UX or UI design**. It is mainly used as a web application.
+>
+> [Introducing Figma: A Beginners Tutorial (2023 UI UX Design)](https://www.youtube.com/watch?v=JGLfyTDgfDc)
 
 ## Channels to follow
 
@@ -138,7 +149,6 @@ Starter template based on **[Vite](https://vitejs.dev/guide/)** incl. **all tech
 
 # [TODO]
 
-- switch Flowbite to https://floatui.com/
 - User Code Splitting => https://www.youtube.com/watch?v=JU6sl_yyZqs
 - Add https://react-query-v3.tanstack.com/
   - https://jsonplaceholder.typicode.com/posts
