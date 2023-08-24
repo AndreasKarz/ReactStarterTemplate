@@ -18,10 +18,10 @@ export default function NavBar() {
 	];
 
 	return (
-		<nav className='bg-white/90 backdrop-blur-md shadow-lg w-full border-2 border-black-100 z-50'>
-			<div className='items-center px-1 max-w-screen-xl mx-auto md:flex md:px-1'>
+		<nav className='bg-white/90 backdrop-blur-md shadow-lg fixed left-0 right-0 top-0 z-50'>
+			<div className='items-center px-4 max-w-screen-xl mx-auto md:flex md:px-1 md:pr-4'>
 				<div className='flex items-center justify-between py-1 md:py-3 md:block '>
-					<a href='javascript:void(0)'>
+					<a href='/'>
 						<img
 							src='https://www.floatui.com/logo.svg'
 							width={120}
@@ -77,6 +77,7 @@ export default function NavBar() {
 								<li
 									key={idx}
 									className='mx-4'
+									onClick={() => setState(!state)}
 								>
 									<NavBarLink
 										to={item.path}

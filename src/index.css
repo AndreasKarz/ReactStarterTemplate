@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* https://dev.to/mnathani/two-lines-of-css-that-boosts-7x-rendering-performance-4mjd */
+section {
+	content-visibility: auto;
+	contain-intrinsic-size: 1px 5000px;
+}
+
+/* Find a better solution with tailwind? */
 nav a.active,
 footer a.active {
 	color: #67e8f9;
@@ -12,16 +19,4 @@ footer {
 	bottom: 0;
 	right: 0;
 	left: 0;
-}
-
-nav {
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-}
-
-body {
-	padding: 80px 0 80px 0;
-	overflow: scroll;
 }

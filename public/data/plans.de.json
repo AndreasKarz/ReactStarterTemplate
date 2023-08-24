@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Basis Plan",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"price": 12,
+		"isMostPop": false,
+		"features": [
+			"Curabitur faucibus",
+			"massa ut pretium maximus",
+			"Sed posuere nisi",
+			"Pellentesque eu nibh et neque",
+			"Suspendisse a leo",
+			"Praesent quis venenatis ipsum",
+			"Duis non diam vel tortor"
+		]
+	},
+	{
+		"name": "Startup",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"price": 35,
+		"isMostPop": true,
+		"features": [
+			"Curabitur faucibus",
+			"massa ut pretium maximus",
+			"Sed posuere nisi",
+			"Pellentesque eu nibh et neque",
+			"Suspendisse a leo",
+			"Praesent quis venenatis ipsum",
+			"Duis non diam vel tortor"
+		]
+	},
+	{
+		"name": "Enterprise",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"price": 60,
+		"isMostPop": false,
+		"features": [
+			"Curabitur faucibus",
+			"massa ut pretium maximus",
+			"Sed posuere nisi",
+			"Pellentesque eu nibh et neque",
+			"Suspendisse a leo",
+			"Praesent quis venenatis ipsum",
+			"Duis non diam vel tortor"
+		]
+	}
+]

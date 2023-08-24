@@ -17,7 +17,7 @@ export default function Home() {
 					content="{t('home.seo.keywords')}"
 				></meta>
 			</Helmet>
-			<div className='px-3 max-w-screen-xl mx-auto mt-4 md:px-0 md:mt-9'>
+			<div className='px-3 max-w-screen-xl mx-auto md:px-0 mt-0 md:mt-14'>
 				<section>
 					<div className='py-28 gap-12 overflow-hidden md:flex'>
 						<div className='flex-1 space-y-5'>
