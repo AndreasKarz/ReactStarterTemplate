@@ -1,4 +1,11 @@
 {
+	"home": {
+		"seo": {
+			"title": "Wir erledigen das, was ihre Entwickler nicht gerne tun!",
+			"description": "Welche Entwickler schreiben schon gerne Tests?",
+			"keywords": "Kontakt, Testen, Software, Test, Automatisiert, Playwright, Selenium, Specflow"
+		}
+	},
 	"hero1": "Konzentrieren Sie sich auf Ihre Softwareentwicklung.",
 	"hero2": "Wir schreiben Ihre Tests!",
 	"intro": "Erleichtern Sie Ihre agile Software-Entwicklung mit unserer Unterstützung beim automatisierten Testen. Unser Team setzt Playwright, Selenium und Specflow ein, um effiziente und zuverlässige Test-Suites zu schreiben. Überlassen Sie uns Ihre Tests, damit Sie sich auf Ihre App-Entwicklung konzentrieren können.",

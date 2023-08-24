@@ -1,10 +1,6 @@
 import { Icon } from '@iconify/react';
 import { NavLink } from 'react-router-dom';
 
-/**
- * https://www.pluralsight.com/guides/defining-props-in-react-function-component-with-typescript
- */
-
 interface LinkProps {
 	to: string;
 	icon: string;
@@ -13,7 +9,10 @@ interface LinkProps {
 
 export default function NavBarLink(props: LinkProps) {
 	return (
-		<NavLink to={props.to}>
+		<NavLink
+			to={props.to}
+			className='flex flex-row items-center gap-x-2 py-2 px-2 text-tahiti-dark hover:text-tahiti-light active:text-tahiti-light duration-150'
+		>
 			<Icon
 				icon={props.icon}
 				height={18}

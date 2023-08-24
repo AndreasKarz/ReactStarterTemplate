@@ -1,4 +1,11 @@
 {
+	"home": {
+		"seo": {
+			"title": "We do what their developers hate to do!",
+			"description": "What developer likes to write tests?",
+			"keywords": "Kontakt, Testen, Software, Test, Automatisiert, Playwright, Selenium, Specflow"
+		}
+	},
 	"hero1": "Be focused on your software development.",
 	"hero2": "We write your tests!",
 	"intro": "Facilitate your agile software development with our automated testing support. Our team uses Playwright, Selenium and Specflow to write efficient and reliable test suites. Let us take care of your testing so you can focus on your app development.",
