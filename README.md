@@ -42,9 +42,11 @@ With this Vite plugin you can **inject environment variables** into static files
 
 localForage is a JavaScript library that **improves the offline experience** of your web app by using an asynchronous data store with a simple, localStorage-like API. It allows developers to store many types of data instead of just strings.
 
-#### [Axios](https://axios-http.com/docs/intro) (comming soon)
+#### [Axios](https://axios-http.com/docs/intro)
 
 > Axios is a **promise-based HTTP Client** for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase).
+>
+> [How to access/fetch the local JSON file to React](https://akhtarvahid.medium.com/how-to-access-fetch-the-local-json-file-to-react-5ce07c43731d)
 
 #### [Lodash](https://lodash.com/) (comming soon)
 
