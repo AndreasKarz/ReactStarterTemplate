@@ -3,9 +3,17 @@ import { useTranslation } from 'react-i18next';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
+interface Plan {
+	name: string;
+	desc: string;
+	price: number;
+	isMostPop: boolean;
+	features: string[];
+}
+
 export default function Pricing() {
 	const { t, i18n } = useTranslation();
-	const [plans, setPlans] = useState([]);
+	const [plans, setPlans] = useState<Plan[]>([]);
 
 	useEffect(() => {
 		axios
@@ -31,7 +39,7 @@ export default function Pricing() {
 					content="{t('pricing.seo.keywords')}"
 				></meta>
 			</Helmet>
-			<div className='px-3 max-w-screen-xl mx-auto md:px-0 mt-5 md:mt-16'>
+			<div className='px-3 max-w-screen-xl mx-auto md:px-0 my-5 md:my-16'>
 				<section className='py-14'>
 					<div className='max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8'>
 						<div className='relative max-w-xl mx-auto sm:text-center'>
@@ -61,12 +69,12 @@ export default function Pricing() {
 										''
 									)}
 									<div className='p-8 space-y-4 border-b'>
-										<span className='text-indigo-600 font-medium'>{item.name}</span>
-										<div className='text-gray-800 text-3xl font-semibold'>
-											${item.price} <span className='text-xl text-gray-600 font-normal'>/mo</span>
+										<span className='text-tahiti-dark font-medium'>{item.name}</span>
+										<div className='text-gray-600 text-3xl font-semibold'>
+											${item.price} <span className='text-xl text-gray-800 font-normal'>/mo</span>
 										</div>
 										<p>{item.desc}</p>
-										<button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
+										<button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-tahiti hover:bg-tahiti-light active:bg-tahiti-light'>
 											Get Started
 										</button>
 									</div>
@@ -81,7 +89,7 @@ export default function Pricing() {
 											>
 												<svg
 													xmlns='http://www.w3.org/2000/svg'
-													className='h-5 w-5 text-indigo-600'
+													className='h-5 w-5 text-tahiti'
 													viewBox='0 0 20 20'
 													fill='currentColor'
 												>
