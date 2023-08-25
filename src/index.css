@@ -1,12 +1,17 @@
 @tailwind base;
 @tailwind components;
+
 /* Composing Utilities with @apply 		https://www.youtube.com/watch?v=krSgBUmIgP0 */
 .page {
-	@apply px-3 max-w-screen-xl mx-auto md:px-0  my-6 md:my-24;
+	@apply max-w-screen-xl px-3 mx-auto;
 }
 a.active {
 	@apply text-tahiti-light duration-150;
 }
+.content {
+	@apply my-6 md:my-24;
+}
+
 @tailwind utilities;
 
 /* Optimize rendering performane		https://dev.to/mnathani/two-lines-of-css-that-boosts-7x-rendering-performance-4mjd */
@@ -34,11 +39,4 @@ section {
 
 body {
 	overflow-y: scroll;
-}
-
-footer {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	left: 0;
 }

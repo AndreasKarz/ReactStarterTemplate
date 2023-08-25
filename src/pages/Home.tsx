@@ -66,7 +66,7 @@ export default function Home() {
 					content="{t('home.seo.keywords')}"
 				></meta>
 			</Helmet>
-			<div className='page'>
+			<div className='container page content'>
 				<section>
 					<div className='py-28 gap-12 overflow-hidden md:flex'>
 						<div className='flex-1 space-y-5'>
@@ -142,14 +142,14 @@ export default function Home() {
 						<div className='flex-1 hidden lg:block'>
 							<img
 								src='https://picsum.photos/id/4/800/400'
-								className='max-w-xl'
+								className='max-w-2xl'
 							/>
 						</div>
 					</div>
 				</section>
 
-				<section className='py-14'>
-					<div className='max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8'>
+				<section className='py-10'>
+					<div className=' text-gray-600 '>
 						<div className='relative max-w-2xl mx-auto sm:text-center'>
 							<div className='relative z-10'>
 								<h3 className='text-gray-800 text-3xl font-light sm:text-4xl'>What's inside?</h3>

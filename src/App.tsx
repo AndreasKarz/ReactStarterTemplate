@@ -29,7 +29,7 @@ export default function App() {
 	}, []);
 
 	return (
-		<div className='container '>
+		<>
 			<NavBar />
 
 			<Routes>
@@ -64,6 +64,6 @@ export default function App() {
 			</Routes>
 
 			<Footer />
-		</div>
+		</>
 	);
 }

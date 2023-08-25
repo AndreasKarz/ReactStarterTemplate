@@ -19,8 +19,8 @@ export default function NavBar() {
 
 	return (
 		<nav className='bg-white/90 backdrop-blur-md shadow-lg fixed left-0 right-0 top-0 z-50'>
-			<div className='container'>
-				<div className='items-center px-3 max-w-screen-xl mx-auto md:flex md:px-1 md:pr-4'>
+			<div className='container page'>
+				<div className='items-center md:flex'>
 					<div className='flex items-center justify-between py-1 md:py-3 md:block '>
 						<a href='/'>
 							<img
@@ -70,15 +70,15 @@ export default function NavBar() {
 					<div
 						className={`flex-1 justify-self-center pb-3 mt-0 md:block md:pb-0  ${
 							state ? 'block' : 'hidden'
-						}`}
+						} `}
 					>
-						<ul className='space-y-0 justify-end flex flex-col md:flex md:flex-row '>
+						<ul className='space-y-0 justify-end flex flex-col md:flex md:flex-row pr-0'>
 							{navigation.map((item, idx) => {
 								return (
 									<li
 										key={idx}
-										className='mx-4'
-										onClick={() => setState(!state)}
+										className='ml-0 md:ml-4'
+										onClick={() => setState(false)}
 									>
 										<NavBarLink
 											to={item.path}

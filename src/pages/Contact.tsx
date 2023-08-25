@@ -82,9 +82,9 @@ function Contact() {
 					content="{t('contact.seo.keywords')}"
 				></meta>
 			</Helmet>
-			<div className='page'>
-				<section className='py-28'>
-					<div className='max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8'>
+			<div className='container page content'>
+				<section className='py-14'>
+					<div className='text-gray-600'>
 						<div className='max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none'>
 							<div className='max-w-lg space-y-3'>
 								<p className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
