@@ -1,8 +1,57 @@
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
+import { Icon } from '@iconify/react';
 
 export default function Home() {
 	const { t } = useTranslation();
+
+	const features = [
+		{
+			icon: 'devicon:react',
+			title: 'React',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+		},
+		{
+			icon: 'devicon:reactrouter',
+			title: 'React Router',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+		},
+		{
+			icon: 'simple-icons:i18next',
+			title: 'React i18n',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+		},
+		{
+			icon: 'icon-park:helmet',
+			title: 'Recat Helmet Async',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+		},
+		{
+			icon: 'devicon:tailwindcss',
+			title: 'Tailwind',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+		},
+		{
+			icon: 'bi:ui-radios',
+			title: 'FloatUI',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+		},
+		{
+			icon: 'devicon:vitejs',
+			title: 'Vite',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+		},
+		{
+			icon: 'devicon-plain:axios',
+			title: 'Axios',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+		},
+		{
+			icon: 'simple-icons:iconify',
+			title: 'Iconify',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+		},
+	];
 
 	return (
 		<>
@@ -99,48 +148,47 @@ export default function Home() {
 					</div>
 				</section>
 
-				<dl className='mb-6'>
-					<dt className='text-xl font-bold mt-4'>React</dt>
-					<dd className='text-sm'></dd>
-					<dt className='text-xl font-bold mt-4'>React Router</dt>
-					<dd className='text-sm'>{t('router')}</dd>
-					<dt className='text-xl font-bold mt-4'>Tailwind CSS</dt>
-					<dd className='text-sm'>
-						A utility-first CSS framework packed with classes like flex, pt-4, text-center and
-						rotate-90 that can be composed to build any design, directly in your markup.
-					</dd>
-					<dt className='text-xl font-bold mt-4'>Flowbite</dt>
-					<dd className='text-sm'>
-						Get started with the most popular open-source library of interactive UI components built
-						with the utility classes from Tailwind CSS.
-					</dd>
-					<dt className='text-xl font-bold mt-4'>Flowbite React</dt>
-					<dd className='text-sm'>rings Flowbite to React with special React Components.</dd>
-					<dt className='text-xl font-bold mt-4'>Iconify</dt>
-					<dd className='text-sm'>Over 100,000 open source vector icons as a React Component.</dd>
-				</dl>
-				<div className='flex space-x-8 flex-row'>
-					<div className='basis-1/4 bg-gray-400 shadow-xl'>
-						01 fdsaf saf asf
-						<br /> asf asf af aff{' '}
+				<section className='py-14'>
+					<div className='max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8'>
+						<div className='relative max-w-2xl mx-auto sm:text-center'>
+							<div className='relative z-10'>
+								<h3 className='text-gray-800 text-3xl font-light sm:text-4xl'>What's inside?</h3>
+								<p className='mt-3'>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget
+									molestie varius, enim ex faucibus purus.
+								</p>
+							</div>
+							<div
+								className='absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]'
+								style={{
+									background:
+										'linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)',
+								}}
+							></div>
+						</div>
+						<div className='relative mt-12'>
+							<ul className='grid gap-8 sm:grid-cols-2 lg:grid-cols-3'>
+								{features.map((item, idx) => (
+									<li
+										key={idx}
+										className='bg-white space-y-3 p-4 border rounded-lg'
+									>
+										<div className='text-center'>
+											<Icon
+												icon={item.icon}
+												height={32}
+												inline={true}
+												className='inline-block'
+											/>
+										</div>
+										<h4 className='text-lg text-gray-800 font-semibold'>{item.title}</h4>
+										<p>{item.desc}</p>
+									</li>
+								))}
+							</ul>
+						</div>
 					</div>
-					<div className='basis-1/4 bg-h1_light-200 shadow-xl'>02</div>
-					<div className='basis-1/4 bg-yellow-100 shadow-xl'>03</div>
-					<div className='basis-1/4 bg-h1_light-300'>
-						<a
-							href='#'
-							className='block max-w-sm p-6 border border-gray-200 shadow-xl hover:bg-gray-200 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'
-						>
-							<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-								Noteworthy technology acquisitions 2021
-							</h5>
-							<p className='font-normal text-gray-700 dark:text-gray-400'>
-								Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse
-								chronological order.
-							</p>
-						</a>
-					</div>
-				</div>
+				</section>
 			</div>
 		</>
 	);

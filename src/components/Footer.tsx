@@ -11,8 +11,8 @@ export default function Footer() {
 	const { t, i18n } = useTranslation();
 
 	return (
-		<footer className='w-full pb-2 bg-gray-100'>
-			<div className='container flex justify-between w-full mt-4'>
+		<footer className='my-0 py-4 bg-white/80 backdrop-blur-md border-t border-gray-300 '>
+			<div className='page my-0 flex justify-between w-full'>
 				<div>
 					{i18n.language != 'de' && <LangLink lang='de' />}
 					{i18n.language != 'en' && <LangLink lang='en' />}

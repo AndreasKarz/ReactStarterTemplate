@@ -24,9 +24,9 @@ export default function NavBar() {
 					<div className='flex items-center justify-between py-1 md:py-3 md:block '>
 						<a href='/'>
 							<img
-								src='https://www.floatui.com/logo.svg'
-								width={120}
-								height={50}
+								src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWa-gW4n2m_1rLpvlkE_1SzBSEHFj8LoP9Qw&usqp=CAU'
+								width={100}
+								height={40}
 								alt='Float UI logo'
 							/>
 						</a>
