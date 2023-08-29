@@ -28,9 +28,15 @@ You should already have an Know-how of React, Typescript and Javascript for this
 >
 > [Designing with Tailwind CSS: Composing Utilities with @apply](https://www.youtube.com/watch?v=krSgBUmIgP0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=2)
 
-### [Float UI (comming soon)](https://floatui.com/)
+### Tailwind extensions
 
-> Move faster with beautiful, responsive **[UI components](https://floatui.com/components)** and website templates with modern design, **100% free** and open-source based on Tailwind.
+> A list of component templates and plugins:
+>
+> - [Tailwind UI](https://tailwindui.com/)
+> - [Tailblocks](https://tailblocks.cc/)
+> - [Tailwind Forms](https://github.com/tailwindlabs/tailwindcss-forms)
+> - [Float UI](https://floatui.com/)
+> - [Tailwind Toolbox](https://www.tailwindtoolbox.com/)
 
 ## Extensions
 
@@ -146,6 +152,8 @@ Canva is a **graphic design platform for creating visual content**. The software
 > [Introducing Figma: A Beginners Tutorial (2023 UI UX Design)](https://www.youtube.com/watch?v=JGLfyTDgfDc)
 
 ## Channels to follow
+
+[Tailwind Labs](https://www.youtube.com/@TailwindLabs)
 
 [Web Dev Simplified (React)](https://www.youtube.com/@WebDevSimplified)
 
