@@ -32,6 +32,7 @@ You should already have an Know-how of React, Typescript and Javascript for this
 
 > A list of component templates and plugins:
 >
+> - [daisyUI](https://daisyui.com/)
 > - [Tailwind UI](https://tailwindui.com/)
 > - [Tailblocks](https://tailblocks.cc/)
 > - [Tailwind Forms](https://github.com/tailwindlabs/tailwindcss-forms)
